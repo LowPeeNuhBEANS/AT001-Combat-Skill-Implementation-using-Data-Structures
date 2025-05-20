@@ -196,7 +196,7 @@ public class turnBased {
             }
         } else {
             dmg = jinguMastery.pop();
-            int lifestealAmount = (damage / 5); // +20% Hp lifesteal from the randomized damage?? sorry :(( lmao
+            int lifestealAmount = (damage / 5); // +20% Hp lifesteal 
             playerHp += lifestealAmount;
             System.out.println("Jingu Mastery is ACTIVE!");
             System.out.println(lifestealAmount + " HP was added because of lifesteal! (Current HP: " + playerHp + ")");
